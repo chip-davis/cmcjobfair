@@ -1,0 +1,7 @@
+version: "3.4"
+services:
+  cmcjobfair:
+    image: cmcjobfair
+    container_name: cmcjobfair-container
+    ports:
+      - "8080:80"
